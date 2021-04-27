@@ -5,6 +5,18 @@
 * SSDT-PLUG
 * SSDT-PMC
 
+### Kexts 
+
+* `OpenCorePkg`: `0.6.8`
+* `VirtualSMC`: `1.2.2`
+* `Lilu`: `1.5.2`
+* `WhateverGreen`: `1.4.9`
+* `AppleALC`: `1.5.9`
+* `IntelMausi`: `1.0.5`
+* `itlwm`: `v1.3.0 stable` / `HeliPort`: `v1.4.0`
+* `IntelBluetoothFirmware`: `1.1.2`
+* `NVMeFix`: `1.0.6`
+
 ### EFI - Drives
 
 |名字|描述|
