@@ -1,6 +1,11 @@
 ## 7060mff-opencore
 
 
+### BIOS - modGRUBShell.efi
+
+* 修改 DVMT Pre-Allocated 为64MB: `setup_var 0x8DC 0x2`
+* 禁用CFG lock: `setup_var 0x5BE 0x0`
+
 ### 硬件
 
 * 芯片组: [Intel® Q370 Chipset](https://ark.intel.com/content/www/cn/zh/ark/products/133282/intel-q370-chipset.html)

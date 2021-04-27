@@ -1,5 +1,13 @@
 ## Docs
 
+
+### Tools
+
+|名称|用途|
+|---|---|
+|`ControlMsrE2.efi`| 检查是否锁定|
+|[`modGRUBShell.efi`](https://github.com/datasone/grub-mod-setup_var/releases)| 用于解锁|
+
 ### SSDTs
 
 * SSDT-PLUG
@@ -42,4 +50,5 @@
 * [Intel Coffee Lake平台完美黑苹果系统安装教程（Opencore+Catalina15.4）- 司波图](https://www.youtube.com/watch?v=Lu6Kmz5aDhY)
 * [OpenIntelWireless](https://openintelwireless.github.io/)
 * [使用 OpenCore 引导黑苹果](https://blog.xjn819.com/post/opencore-guide.html)
+* [Building a Bootable USB drive with UEFI Shell (x64)](https://chipsec.github.io/USB%20with%20UEFI%20Shell.html)
 
