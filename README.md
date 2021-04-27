@@ -19,3 +19,4 @@
 * `VirtualSMC`: `1.2.2`
 * `Lilu`: `1.5.2`
 * `WhateverGreen`: `1.4.9`
+* `AppleALC`: `1.5.9`
