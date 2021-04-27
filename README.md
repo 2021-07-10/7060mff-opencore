@@ -21,3 +21,4 @@
 * `WhateverGreen`: `1.4.9`
 * `AppleALC`: `1.5.9`
 * `IntelMausi`: `1.0.5`
+* `itlwm`: `v1.3.0 stable`
