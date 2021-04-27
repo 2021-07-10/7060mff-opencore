@@ -4,6 +4,7 @@
 
 * SSDT-PLUG
 * SSDT-PMC
+* SSDT-EC
 
 ### Kexts 
 
