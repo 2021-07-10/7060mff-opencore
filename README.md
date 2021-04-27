@@ -11,3 +11,8 @@
 * 视频: `英特尔 UHD 显卡 630`
 * 硬盘: [`WD BLUE SN550 NVME SSD`](https://support-cn.wd.com/app/products/product-detail/p/1555)
 * 内存: `三星 DDR4 2666MHz 8GB * 2` / [`M471A1K43DB1-CTD`](https://www.samsung.com/semiconductor/cn/dram/module/M471A1K43DB1-CTD/)
+
+
+### 信息
+
+* `OpenCorePkg`: `0.6.8` 
