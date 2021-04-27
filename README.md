@@ -15,4 +15,5 @@
 
 ### 信息
 
-* `OpenCorePkg`: `0.6.8` 
+* `OpenCorePkg`: `0.6.8`
+* `VirtualSMC`: `1.2.2`
