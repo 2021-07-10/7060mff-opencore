@@ -3,6 +3,7 @@
 ### SSDTs
 
 * SSDT-PLUG
+* SSDT-PMC
 
 ### EFI - Drives
 
