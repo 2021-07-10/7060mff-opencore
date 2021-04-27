@@ -1,5 +1,8 @@
 ## Docs
 
+### SSDTs
+
+* SSDT-PLUG
 
 ### EFI - Drives
 
