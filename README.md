@@ -20,3 +20,4 @@
 * `Lilu`: `1.5.2`
 * `WhateverGreen`: `1.4.9`
 * `AppleALC`: `1.5.9`
+* `IntelMausi`: `1.0.5`
