@@ -18,3 +18,4 @@
 * `OpenCorePkg`: `0.6.8`
 * `VirtualSMC`: `1.2.2`
 * `Lilu`: `1.5.2`
+* `WhateverGreen`: `1.4.9`
