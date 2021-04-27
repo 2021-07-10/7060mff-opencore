@@ -24,3 +24,8 @@
 * `itlwm`: `v1.3.0 stable` / `HeliPort`: `v1.4.0`
 * `IntelBluetoothFirmware`: `1.1.2`
 * `NVMeFix`: `1.0.6`
+
+
+### Misc
+
+* `SystemProductName`: `Macmini8,1`
