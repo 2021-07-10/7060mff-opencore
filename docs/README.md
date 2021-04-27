@@ -13,6 +13,7 @@
 * SSDT-PLUG
 * SSDT-PMC
 * SSDT-EC
+* SSDT-HPET
 
 ### Kexts 
 
