@@ -1,7 +1,9 @@
 ## 7060mff-opencore
 
 
-### BIOS - modGRUBShell.efi
+### BIOS
+
+**1 - modGRUBShell.efi**
 
 * 修改 DVMT Pre-Allocated 为64MB: `setup_var 0x8DC 0x2`
 * 禁用CFG lock: `setup_var 0x5BE 0x0`
@@ -16,9 +18,22 @@
 * 视频: `英特尔 UHD 显卡 630`
 * 硬盘: [`WD BLUE SN550 NVME SSD`](https://support-cn.wd.com/app/products/product-detail/p/1555)
 * 内存: `三星 DDR4 2666MHz 8GB * 2` / [`M471A1K43DB1-CTD`](https://www.samsung.com/semiconductor/cn/dram/module/M471A1K43DB1-CTD/)
+* 显示器: `DELL U2419HS` * 2
+* 键盘:  [FILCO Majestouch Minila Air](https://www.diatec.co.jp/en/det.php?prod_c=1470) / [小米无线键鼠套装](https://www.mi.com/buy/detail?product_id=11418)
 
 
 
 ### Misc
 
-* `SystemProductName`: `Macmini8,1`
+* [x] 有线: 正常
+* [x] WiFi: 正常
+* [x] 蓝牙
+* [x] 声卡
+* [x] 显卡
+
+### 效果图
+
+<img src="./docs/overview.png">
+<img src="./docs/displays.png">
+<img src="./docs/sound.png">
+<img src="./docs/bluetooth.png">
