@@ -81,6 +81,13 @@
 * `SecureBootModel`: `Default`
 * `Vault`: `Optional`
 
+**NVRAM**
+
+`7C436110-AB2A-4BBB-A880-FE41995C9F82`
+
+* `boot-args`: `debug=0x100`
+* `prev-lang:kbd`: `String`: `en-US:0`
+
 
 ### 参考资料
 
