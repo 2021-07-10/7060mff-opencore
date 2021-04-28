@@ -67,6 +67,12 @@
 * `PowerTimeoutKernelPanic`: `True`
 * `XhciPortLimit`: `True`
 
+**Misc - Debug**
+
+* `AppleDebug`: `True`
+* `ApplePan`: `True`
+* `Target`: `67`
+
 
 ### 参考资料
 
