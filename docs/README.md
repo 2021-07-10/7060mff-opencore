@@ -52,6 +52,14 @@
 * `RebuildAppleMemoryMap`: `True`
 * `SyncRuntimePermissions`: `True`
 
+**DeviceProperties**
+
+`PciRoot(0x0)/Pci(0x1F,0x3)`
+
+|Key|Type|Value|
+|---|---|---|
+|`layout-id`|`Data`|`0B000000`
+
 ### 参考资料
 
 * [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
