@@ -73,6 +73,14 @@
 * `ApplePan`: `True`
 * `Target`: `67`
 
+**Misc - Security**
+
+* `AllowNvramReset`: `True`
+* `AllowSetDefault`: `True`
+* `ScanPolicy`: `0`
+* `SecureBootModel`: `Default`
+* `Vault`: `Optional`
+
 
 ### 参考资料
 
