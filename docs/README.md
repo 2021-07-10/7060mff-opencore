@@ -43,6 +43,15 @@
 |`OpenPartitionDxe.efi`|Required to boot recovery on OS X 10.7 through 10.9|
 |`UsbMouseDxe.efi`|当MacOS被安装在虚拟机上所需要的鼠标插件|
 
+### config
+
+**Booter - Quirks**
+
+* `DevirtualiseMmio`: `True`
+* `EnableWriteUnprotector`: `Fasle`
+* `RebuildAppleMemoryMap`: `True`
+* `SyncRuntimePermissions`: `True`
+
 ### 参考资料
 
 * [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
