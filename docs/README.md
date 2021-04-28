@@ -88,6 +88,9 @@
 * `boot-args`: `debug=0x100`
 * `prev-lang:kbd`: `String`: `en-US:0`
 
+**PlatformInfo - Generic**
+
+* `SystemProductName`: `Macmini8,1`
 
 ### 参考资料
 
