@@ -60,6 +60,16 @@
 |---|---|---|
 |`layout-id`|`Data`|`0B000000`
 
+`PciRoot(0x0)/Pci(0x2,0x0)` / 显卡
+
+> 不设置 Sound / Output 只有一个DP
+
+|Key|Type|Value|
+|---|---|---|
+|`AAPL,ig-platform-id`|`Data`|`07009B3E`|
+|`framebuffer-patch-enable`|`Data`|`01000000`|
+|`framebuffer-stolenmem`|`Data`|`00003001`|
+
 **Kernel - Quirks**
 
 * `DisableIOMapper`: `True`
