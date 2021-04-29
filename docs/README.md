@@ -5,7 +5,6 @@
 
 |名称|用途|
 |---|---|
-|`ControlMsrE2.efi`| 检查是否锁定|
 |[`modGRUBShell.efi`](https://github.com/datasone/grub-mod-setup_var/releases)| 用于解锁|
 
 ### SSDTs
