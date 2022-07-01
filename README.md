@@ -37,4 +37,4 @@
 
 ## Ref
 
-* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/) - `0.7.5`
+* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/) - `0.7.8`
