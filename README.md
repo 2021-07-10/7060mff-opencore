@@ -3,7 +3,7 @@
 
 ## BIOS
 
-> [`OptiPlex_7060_1.16.0`](https://dl.dell.com/FOLDER07966924M/1/OptiPlex_7060_1.16.0.exe)
+> [`OptiPlex_7060_1.20.0`](https://dl.dell.com/FOLDER08572247M/1/OptiPlex_7060_1.20.0.exe)
 
 **1 - modGRUBShell.efi**
 
