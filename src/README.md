@@ -80,7 +80,7 @@
 
 组件|本期|上期|备注
 ---|---|---|---
-`OpenCorePkg`| `0.7.7` | `0.6.8`
+`OpenCorePkg`| `0.8.1` | `0.7.7`
 
 **Drives**
 
@@ -92,10 +92,10 @@
 
 组件|本期|上期|备注
 ---|---|---|---
-`VirtualSMC` | `1.2.8` | `1.2.2`
-`Lilu` | `1.5.9` | `1.5.2`
-`WhateverGreen` | `1.5.6` | `1.4.9`
-`AppleALC` | `1.6.8` | `1.5.9`
+`VirtualSMC` | `1.2.9` |`1.2.8`
+`Lilu` | `1.6.0` | `1.5.9`
+`WhateverGreen` | `1.5.9` | `1.5.6`
+`AppleALC` | `1.7.2` |`1.6.8`
 `IntelMausi` | `1.0.7` | `1.0.5`
 `itlwm` | `v2.1.0 stable` | `v1.3.0 stable`
 `IntelBluetoothFirmware` | `v2.1.0` | `v1.1.2`
