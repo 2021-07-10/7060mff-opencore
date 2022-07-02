@@ -12,7 +12,7 @@ cp ./X64/EFI/OC/OpenCore.efi ../EFI/OC/
 # cp ./Docs/Sample.plist ../EFI/OC/config.plist
 
 # ----------
-wget https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
+wget https://raw.githubusercontent.com/acidanthera/OcBinaryData/master/Drivers/HfsPlus.efi
 cp HfsPlus.efi ../EFI/OC/Drivers/
 
 # @Kexts:
