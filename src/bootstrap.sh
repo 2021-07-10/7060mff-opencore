@@ -9,6 +9,7 @@ cp ./X64/EFI/BOOT/BOOTx64.efi ../EFI/BOOT/
 cp ./X64/EFI/OC/Drivers/OpenRuntime.efi ../EFI/OC/Drivers/
 cp ./X64/EFI/OC/OpenCore.efi ../EFI/OC/
 cp ./Docs/Sample.plist ../EFI/OC/config.plist
+cp ./X64/EFI/OC/Tools/CleanNvram.efi ../EFI/OC/Tools/
 
 # ----------
 wget https://raw.githubusercontent.com/acidanthera/OcBinaryData/master/Drivers/HfsPlus.efi
