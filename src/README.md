@@ -61,7 +61,7 @@
 `7C436110-AB2A-4BBB-A880-FE41995C9F82`
 
 * `boot-args`: ` `
-* `prev-lang:kbd`: `String`: `en-US:0`
+* `prev-lang:kbd`: `String`: `en-US:0` `en:252`
 
 **PlatformInfo - Generic**
 
