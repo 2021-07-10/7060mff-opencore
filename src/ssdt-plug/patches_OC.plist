@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Plugin Type</string>
+				<string>Sets plugin-type to 1 on first Processor object</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,8 +16,7 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 </dict>
 </plist>
