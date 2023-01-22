@@ -80,32 +80,32 @@
 
 组件|本期|上期|备注
 ---|---|---|---
-`OpenCorePkg`| `0.7.7` | `0.6.8`
+`OpenCorePkg`| `0.8.8` | `0.8.1`
 
 **Drives**
 
 组件|本期|上期|备注
 ---|---|---|---
-[`HfsPlus.efi`](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) | `29b2391` | `192ed42`
+[`HfsPlus.efi`](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) | `c2a9898`| `29b2391`
 
 **Kexts**
 
 组件|本期|上期|备注
 ---|---|---|---
-`VirtualSMC` | `1.2.8` | `1.2.2`
-`Lilu` | `1.5.9` | `1.5.2`
-`WhateverGreen` | `1.5.6` | `1.4.9`
-`AppleALC` | `1.6.8` | `1.5.9`
+`VirtualSMC` | `1.3.0` | `1.2.9`
+`Lilu` | `1.6.3` | `1.6.0`
+`WhateverGreen` | `1.6.3` | `1.5.9`
+`AppleALC` | `1.7.8` | `1.7.2`
 `IntelMausi` | `1.0.7` | `1.0.5`
-`itlwm` | `v2.1.0 stable` | `v1.3.0 stable`
-`IntelBluetoothFirmware` | `v2.1.0` | `v1.1.2`
-`NVMeFix` | `1.0.9` | `1.0.6`
+`itlwm` | `v2.1.0 stable` | `v1.3.0 stable` | 弃用
+`IntelBluetoothFirmware` | `v2.1.0` | `v1.1.2` |  弃用
+`NVMeFix` | `1.0.9` | `1.0.6` | 弃用
 
 **Tools**
 
 名称|本期|上期|备注
 ---|---|---|---
-[`modGRUBShell.efi`](https://github.com/datasone/grub-mod-setup_var/releases)| `1.3` | `1.3`
+[`setup_var.efi`](https://github.com/datasone/setup_var.efi/releases)| `0.2.2` | -
 
 **SSDTs**
 
