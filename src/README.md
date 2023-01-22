@@ -111,6 +111,11 @@
 
 > [`SSDTTime`](https://github.com/corpnewt/SSDTTime)
 
+```
+BIOS: 1.24.0
+MD5 (DSDT.aml) = a46c88dd2c7c2495b6531fef54c951a0
+```
+
 组件|本期|上期|备注
 ---|---|:---:|---
 `SSDT-PLUG`| `1.16.0`
