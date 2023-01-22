@@ -3,8 +3,6 @@
 
 ## BIOS
 
-> [`OptiPlex_7060_1.20.0`](https://dl.dell.com/FOLDER08572247M/1/OptiPlex_7060_1.20.0.exe)
-
 **1 - modGRUBShell.efi**
 
 * 修改 `DVMT Pre-Allocated` 为 `64M`: `setup_var 0x8DC 0x2`
@@ -27,7 +25,7 @@
 * 处理器: [英特尔® 酷睿™ i5-8600T 处理器](https://ark.intel.com/content/www/cn/zh/ark/products/129938/intel-core-i5-8600t-processor-9m-cache-up-to-3-70-ghz.html)
 * 网络适配器: [英特尔® 以太网连接 I219-LM](https://ark.intel.com/content/www/cn/zh/ark/products/82185/intel-ethernet-connection-i219-lm.html)
 * 无线: [英特尔® Wireless-AC 9560](https://ark.intel.com/content/www/cn/zh/ark/products/99446/intel-wireless-ac-9560.html)
-* 音频: `Realtek ALC3234`
+* 音频: `Realtek ALC255`(系统显示)  / `Realtek ALC3234`(说明文档)
 * 视频: `英特尔 UHD 显卡 630`
 * 硬盘: [`WD BLUE SN550 NVME SSD`](https://support-cn.wd.com/app/products/product-detail/p/1555) ([本地版本](./src/02-01-WW-04-00050.pdf))
 * 内存: `三星 DDR4 2666MHz 8GB` x 2 / [`M471A1K43DB1-CTD`](https://www.samsung.com/semiconductor/cn/dram/module/M471A1K43DB1-CTD/)
@@ -37,4 +35,4 @@
 
 ## Ref
 
-* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/) - `0.7.5`
+* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/) - `0.8.8`
