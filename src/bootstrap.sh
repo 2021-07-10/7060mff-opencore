@@ -57,5 +57,5 @@ cp ./ssdt-hpet/SSDT-HPET.aml ../EFI/OC/ACPI/
 
 # @Tools:
 # ----------
-wget https://github.com/datasone/setup_var.efi/releases/download/0.2.2/setup_var.efi
-cp setup_var.efi ../EFI/OC/Tools/
+wget https://github.com/datasone/grub-mod-setup_var/releases/download/1.4/modGRUBShell.efi
+cp modGRUBShell.efi ../EFI/OC/Tools/
