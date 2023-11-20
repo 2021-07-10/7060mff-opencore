@@ -17,36 +17,31 @@ cp HfsPlus.efi ../EFI/OC/Drivers/
 
 # @Kexts:
 # ----------
-wget https://github.com/acidanthera/VirtualSMC/releases/download/1.3.0/VirtualSMC-1.3.0-RELEASE.zip
-unzip VirtualSMC-1.3.0-RELEASE.zip
+wget https://github.com/acidanthera/Lilu/releases/download/1.6.7/Lilu-1.6.7-RELEASE.zip
+unzip Lilu-1.6.7-RELEASE.zip
+cp -r Lilu.kext ../EFI/OC/Kexts/
+
+# ----------
+wget https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip
+unzip VirtualSMC-1.3.2-RELEASE.zip
 cp -r ./Kexts/VirtualSMC.kext ../EFI/OC/Kexts/
 cp -r ./Kexts/SMCProcessor.kext ../EFI/OC/Kexts/
 cp -r ./Kexts/SMCSuperIO.kext ../EFI/OC/Kexts/
 
 # ----------
-wget https://github.com/acidanthera/Lilu/releases/download/1.6.3/Lilu-1.6.3-RELEASE.zip
-unzip Lilu-1.6.3-RELEASE.zip
-cp -r Lilu.kext ../EFI/OC/Kexts/
-
-# ----------
-wget https://github.com/acidanthera/WhateverGreen/releases/download/1.6.3/WhateverGreen-1.6.3-RELEASE.zip
-unzip WhateverGreen-1.6.3-RELEASE.zip
+wget https://github.com/acidanthera/WhateverGreen/releases/download/1.6.6/WhateverGreen-1.6.6-RELEASE.zip
+unzip WhateverGreen-1.6.6-RELEASE.zip
 cp -r WhateverGreen.kext  ../EFI/OC/Kexts/
 
 # ----------
-wget https://github.com/acidanthera/AppleALC/releases/download/1.7.8/AppleALC-1.7.8-RELEASE.zip
-unzip AppleALC-1.7.8-RELEASE.zip
+wget https://github.com/acidanthera/AppleALC/releases/download/1.8.7/AppleALC-1.8.7-RELEASE.zip
+unzip AppleALC-1.8.7-RELEASE.zip
 cp -r AppleALC.kext ../EFI/OC/Kexts/
 
 # ----------
 wget https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-RELEASE.zip
 unzip IntelMausi-1.0.7-RELEASE.zip
 cp -r IntelMausi.kext ../EFI/OC/Kexts/
-
-# ----------
-# wget https://github.com/acidanthera/NVMeFix/releases/download/1.0.9/NVMeFix-1.0.9-RELEASE.zip
-# unzip NVMeFix-1.0.9-RELEASE.zip 
-# cp -r NVMeFix.kext ../EFI/OC/Kexts/
 
 # @ACPI:
 # ----------
