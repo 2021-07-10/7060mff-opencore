@@ -3,13 +3,13 @@ mkdir -p ../EFI/OC/{Drivers,Kexts,ACPI,Tools}
 
 # @Drivers:
 # ----------
-wget https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.8/OpenCore-0.8.8-RELEASE.zip
-unzip OpenCore-0.8.8-RELEASE.zip
+wget https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.6/OpenCore-0.9.6-RELEASE.zip
+unzip OpenCore-0.9.6-RELEASE.zip
 cp ./X64/EFI/BOOT/BOOTx64.efi ../EFI/BOOT/
-cp ./X64/EFI/OC/Drivers/OpenRuntime.efi ../EFI/OC/Drivers/
 cp ./X64/EFI/OC/OpenCore.efi ../EFI/OC/
-cp ./Docs/Sample.plist ../EFI/OC/config.plist
+cp ./X64/EFI/OC/Drivers/OpenRuntime.efi ../EFI/OC/Drivers/
 cp ./X64/EFI/OC/Tools/CleanNvram.efi ../EFI/OC/Tools/
+cp ./Docs/Sample.plist ../EFI/OC/config.plist
 
 # ----------
 wget https://raw.githubusercontent.com/acidanthera/OcBinaryData/master/Drivers/HfsPlus.efi
