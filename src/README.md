@@ -95,7 +95,7 @@
 `Lilu` | `1.6.8`| `1.6.7`
 `VirtualSMC` | `1.3.3` | `1.3.2`
 `WhateverGreen` | `1.6.7` | `1.6.6`
-`AppleALC` | `1.8.7` | `1.7.8`
+`AppleALC`  | `1.9.1`| `1.8.7`
 `IntelMausi` | `1.0.7` | `1.0.5`
 
 **Tools**

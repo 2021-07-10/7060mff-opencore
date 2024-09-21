@@ -34,8 +34,8 @@ unzip WhateverGreen-1.6.7-RELEASE.zip
 cp -r WhateverGreen.kext  ../EFI/OC/Kexts/
 
 # ----------
-wget https://github.com/acidanthera/AppleALC/releases/download/1.8.7/AppleALC-1.8.7-RELEASE.zip
-unzip AppleALC-1.8.7-RELEASE.zip
+wget https://github.com/acidanthera/AppleALC/releases/download/1.9.1/AppleALC-1.9.1-RELEASE.zip
+unzip AppleALC-1.9.1-RELEASE.zip
 cp -r AppleALC.kext ../EFI/OC/Kexts/
 
 # ----------
