@@ -22,8 +22,8 @@ unzip Lilu-1.6.8-RELEASE.zip
 cp -r Lilu.kext ../EFI/OC/Kexts/
 
 # ----------
-wget https://github.com/acidanthera/VirtualSMC/releases/download/1.3.2/VirtualSMC-1.3.2-RELEASE.zip
-unzip VirtualSMC-1.3.2-RELEASE.zip
+wget https://github.com/acidanthera/VirtualSMC/releases/download/1.3.3/VirtualSMC-1.3.3-RELEASE.zip
+unzip VirtualSMC-1.3.3-RELEASE.zip
 cp -r ./Kexts/VirtualSMC.kext ../EFI/OC/Kexts/
 cp -r ./Kexts/SMCProcessor.kext ../EFI/OC/Kexts/
 cp -r ./Kexts/SMCSuperIO.kext ../EFI/OC/Kexts/
