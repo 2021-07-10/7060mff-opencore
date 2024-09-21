@@ -29,8 +29,8 @@ cp -r ./Kexts/SMCProcessor.kext ../EFI/OC/Kexts/
 cp -r ./Kexts/SMCSuperIO.kext ../EFI/OC/Kexts/
 
 # ----------
-wget https://github.com/acidanthera/WhateverGreen/releases/download/1.6.6/WhateverGreen-1.6.6-RELEASE.zip
-unzip WhateverGreen-1.6.6-RELEASE.zip
+wget https://github.com/acidanthera/WhateverGreen/releases/download/1.6.7/WhateverGreen-1.6.7-RELEASE.zip
+unzip WhateverGreen-1.6.7-RELEASE.zip
 cp -r WhateverGreen.kext  ../EFI/OC/Kexts/
 
 # ----------
