@@ -3,8 +3,8 @@ mkdir -p ../EFI/OC/{Drivers,Kexts,ACPI,Tools}
 
 # @Drivers:
 # ----------
-wget https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.6/OpenCore-0.9.6-RELEASE.zip
-unzip OpenCore-0.9.6-RELEASE.zip
+wget https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip
+unzip OpenCore-1.0.1-RELEASE.zip
 cp ./X64/EFI/BOOT/BOOTx64.efi ../EFI/BOOT/
 cp ./X64/EFI/OC/OpenCore.efi ../EFI/OC/
 cp ./X64/EFI/OC/Drivers/OpenRuntime.efi ../EFI/OC/Drivers/
