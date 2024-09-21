@@ -17,8 +17,8 @@ cp HfsPlus.efi ../EFI/OC/Drivers/
 
 # @Kexts:
 # ----------
-wget https://github.com/acidanthera/Lilu/releases/download/1.6.7/Lilu-1.6.7-RELEASE.zip
-unzip Lilu-1.6.7-RELEASE.zip
+wget https://github.com/acidanthera/Lilu/releases/download/1.6.8/Lilu-1.6.8-RELEASE.zip
+unzip Lilu-1.6.8-RELEASE.zip
 cp -r Lilu.kext ../EFI/OC/Kexts/
 
 # ----------
