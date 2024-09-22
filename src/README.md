@@ -61,7 +61,7 @@
 `7C436110-AB2A-4BBB-A880-FE41995C9F82`
 
 * `boot-args`: ` `
-* `prev-lang:kbd`: `String`: `en-US:0` `en:252`
+* `prev-lang:kbd`: `String`: ~~`en-US:0`~~ `en:252`
 
 **PlatformInfo - Generic**
 
@@ -71,6 +71,14 @@
 * `Serial`: `C07W1059JYVX`
 * `Board Serial`: `C077533064NKXPG8C`
 * `SmUUID`: `F13C0A66-645B-4174-8AC8-6D81B972F340`
+
+
+## Sequoia
+
+
+> <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
+
+* `SecureBootModel`: `Disabled`
 
 
 
