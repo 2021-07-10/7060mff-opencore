@@ -37,3 +37,4 @@
 
 * <https://dortania.github.io/OpenCore-Install-Guide/> - `0.9.1`
 * [更新完opencore0.8.8后多了一个EFI怎么删除](https://blog.51cto.com/u_15875231/5988662)
+* <https://github.com/ic005k/OCAuxiliaryTools>
