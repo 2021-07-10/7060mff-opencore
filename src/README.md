@@ -76,7 +76,7 @@
 ## Sequoia
 
 
-> <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
+> * <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
 
 * `SecureBootModel`: `Disabled`
 
@@ -100,10 +100,10 @@
 
 组件|本期|上期|备注
 ---|---|---|---
-`Lilu` | `1.6.8`| `1.6.7`
-`VirtualSMC` | `1.3.3` | `1.3.2`
-`WhateverGreen` | `1.6.7` | `1.6.6`
-`AppleALC`  | `1.9.1`| `1.8.7`
+`Lilu` | `1.6.8`| `1.6.7` | Allow loading on macOS 15 without -lilubetaall~
+`VirtualSMC` | `1.3.3` | `1.3.2` | Added constants for macOS 15
+`WhateverGreen` | `1.6.7` | `1.6.6` | Added constants for macOS 15 support
+`AppleALC`  | `1.9.1`| `1.8.7` | Added constants for macOS 15 support
 `IntelMausi` | `1.0.7` | `1.0.5`
 
 **Tools**
