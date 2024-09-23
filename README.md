@@ -5,8 +5,8 @@
 
 **1 - modGRUBShell.efi**
 
-* 修改 `DVMT Pre-Allocated` 为 `64M`: `setup_var 0x8DC 0x2`
-* 禁用 `CFG lock`: `setup_var 0x5BE 0x0`
+* 修改 `DVMT Pre-Allocated` 为 `64M`: `setup_var 0x8DC 0x2` (显存容量)
+* 禁用 `CFG lock`: `setup_var 0x5BE 0x0`(电源管理相关)
 
 ## 应用软件
 

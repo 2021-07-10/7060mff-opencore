@@ -49,7 +49,7 @@
 
 **Misc - Security**
 
-* `AllowNvramReset`: `True`
+* ~~`AllowNvramReset`: `True`~~
 * `AllowSetDefault`: `True`
 * `BlacklistAppleUpdate`: `True`
 * `ScanPolicy`: `0`
