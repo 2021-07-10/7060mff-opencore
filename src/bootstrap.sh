@@ -10,6 +10,7 @@ cp ./X64/EFI/OC/OpenCore.efi ../EFI/OC/
 cp ./X64/EFI/OC/Drivers/OpenRuntime.efi ../EFI/OC/Drivers/
 cp ./X64/EFI/OC/Tools/CleanNvram.efi ../EFI/OC/Tools/
 cp ./Docs/Sample.plist ../EFI/OC/config.plist
+# ResetNvramEntry.efi
 
 # ----------
 wget https://raw.githubusercontent.com/acidanthera/OcBinaryData/master/Drivers/HfsPlus.efi
@@ -42,6 +43,11 @@ cp -r AppleALC.kext ../EFI/OC/Kexts/
 wget https://github.com/acidanthera/IntelMausi/releases/download/1.0.7/IntelMausi-1.0.7-RELEASE.zip
 unzip IntelMausi-1.0.7-RELEASE.zip
 cp -r IntelMausi.kext ../EFI/OC/Kexts/
+
+# ----------
+wget https://github.com/acidanthera/NVMeFix/releases/download/1.1.1/NVMeFix-1.1.1-RELEASE.zip
+unzip NVMeFix-1.1.1-RELEASE.zip
+cp -r NVMeFix.kext ../EFI/OC/Kexts/
 
 # @ACPI:
 # ----------

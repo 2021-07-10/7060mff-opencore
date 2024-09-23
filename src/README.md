@@ -105,6 +105,7 @@
 `WhateverGreen` | `1.6.7` | `1.6.6` | Added constants for macOS 15 support
 `AppleALC`  | `1.9.1`| `1.8.7` | Added constants for macOS 15 support
 `IntelMausi` | `1.0.7` | `1.0.5`
+`NVMeFix` | `1.1.1`
 
 **Tools**
 
