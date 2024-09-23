@@ -81,6 +81,10 @@
 
 > * <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
 
+**NVRAM**
+
+* `Add`、`7C436110-AB2A-4BBB-A880-FE41995C9F82`、`csr-active-config`、`03080000`
+* `Delete`、`7C436110-AB2A-4BBB-A880-FE41995C9F82`、`csr-active-config`
 * `SecureBootModel`: `Disabled`
 
 
