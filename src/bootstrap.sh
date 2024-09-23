@@ -45,6 +45,9 @@ unzip IntelMausi-1.0.7-RELEASE.zip
 cp -r IntelMausi.kext ../EFI/OC/Kexts/
 
 # ----------
+# Added constants for macOS 14 support
+# @TODO macOS 15
+
 wget https://github.com/acidanthera/NVMeFix/releases/download/1.1.1/NVMeFix-1.1.1-RELEASE.zip
 unzip NVMeFix-1.1.1-RELEASE.zip
 cp -r NVMeFix.kext ../EFI/OC/Kexts/
@@ -60,3 +63,20 @@ cp ./ssdt-hpet/SSDT-HPET.aml ../EFI/OC/ACPI/
 # ----------
 wget https://github.com/datasone/grub-mod-setup_var/releases/download/1.4/modGRUBShell.efi
 cp modGRUBShell.efi ../EFI/OC/Tools/
+
+
+# ----------
+# 需要手动下载，命令下载不成功
+# https://community.macmeup.com/index.php?/files/file/23-amfipasskext/
+# 23.0.0
+wget https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip
+unzip AMFIPass-v1.4.1-RELEASE.zip
+cp -r AMFIPass.kext ../EFI/OC/Kexts/
+
+wget https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip
+unzip IOSkywalkFamily-v1.2.0.zip
+cp -r IOSkywalkFamily.kext ../EFI/OC/Kexts/
+
+wget https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip
+unzip IO80211FamilyLegacy-v1.0.0.zip
+cp -r IO80211FamilyLegacy.kext ../EFI/OC/Kexts/

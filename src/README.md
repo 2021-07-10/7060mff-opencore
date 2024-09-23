@@ -1,3 +1,6 @@
+## https://www.igeekbb.com/2023/09/27/Hackintoswifi/
+## https://sdcom.chgskj.cn/193.html
+
 ## Setup
 
 > [ProperTree](https://github.com/corpnewt/ProperTree) / [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
