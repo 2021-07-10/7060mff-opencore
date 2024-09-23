@@ -80,3 +80,14 @@ cp -r IOSkywalkFamily.kext ../EFI/OC/Kexts/
 wget https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip
 unzip IO80211FamilyLegacy-v1.0.0.zip
 cp -r IO80211FamilyLegacy.kext ../EFI/OC/Kexts/
+
+# ----------
+# 自动使用 OCLP
+# https://imacpc.net/?p=669
+# https://github.com/HorizonUnix/PatchSonomaWiFiOnTheFly?tab=readme-ov-file
+
+wget https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Acidanthera/AutoPkgInstaller-v1.0.4-RELEASE.zip
+unzip AutoPkgInstaller-v1.0.4-RELEASE.zip
+cp -r AutoPkgInstaller.kext ../EFI/OC/Kexts/
+
+wget https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.0.1/AutoPkg-Assets.pkg
