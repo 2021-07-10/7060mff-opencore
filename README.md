@@ -16,6 +16,7 @@
 ---|---|:---:|---
 [`HeliPort.dmg`](https://github.com/OpenIntelWireless/HeliPort/releases/download/v1.4.1/HeliPort.dmg)| `1.4.1` | `1.4.0`| Intel Wifi 联网
 [`Hackintool`](https://github.com/headkaze/Hackintool) | `3.8.3` | -  | 调试工具 |
+[`OCAuxiliaryTools`](https://github.com/ic005k/OCAuxiliaryTools) | - | 编辑工具
 
 ## 硬件
 
@@ -37,4 +38,3 @@
 
 * <https://dortania.github.io/OpenCore-Install-Guide/> - `0.9.1`
 * [更新完opencore0.8.8后多了一个EFI怎么删除](https://blog.51cto.com/u_15875231/5988662)
-* <https://github.com/ic005k/OCAuxiliaryTools>
