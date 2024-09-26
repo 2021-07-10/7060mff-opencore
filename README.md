@@ -8,6 +8,21 @@
 * 修改 `DVMT Pre-Allocated` 为 `64M`: `setup_var 0x8DC 0x2` (显存容量)
 * 禁用 `CFG lock`: `setup_var 0x5BE 0x0`(电源管理相关)
 
+## [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/)
+
+* [在macOS安裝過程中自動使用OpenCore Legacy Patcher打好博通Wifi驅動補丁SonomaWiFiOnTheFly (PSWFOTF） – 我和我的黑蘋果](https://imacpc.net/?p=669)
+* [Sonoma 常遇到的問題（保持更新） – 我和我的黑蘋果](https://imacpc.net/?p=85)
+* [macOS Sequoia常遇到的問題 – 我和我的黑蘋果](https://imacpc.net/?p=743)
+* [macOS 14 Sonoma 博通网卡驱动支持 - Geek](https://www.igeekbb.com/2023/09/27/Hackintoswifi/)
+* [Sonoma满⾎复活博通卡（蓝⽛+WiFi） - SDCOM‘s blog](https://sdcom.chgskj.cn/193.html)
+* [总结归纳 Hackintosh 的一些问题 - 淮城一只猫](https://iiong.com/summarize-some-problems-of-hackintosh/)
+* [「黑苹果」免驱网卡，找回macOS Sonoma消失的WiFi - YouTube](https://www.youtube.com/watch?v=tJUyRWGgRuU)
+* [FEVM FN60G黑苹果兼Sequoia安装教程 | 黑果小兵的部落阁](https://blog.daliansky.net/FEVM-FN60G-Hackintosh-and-Sequoia-Installation-Tutorial.html)
+* [BCM94360CS2 黑苹果 macOS Sonoma Wifi 不能开启修复 - hangox - 博客园](https://www.cnblogs.com/Jabba93/p/18254592/bcm94360cs2-hei-ping-guo-macos-sonoma-wifi-bu-neng)
+* [Disabling SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip)
+* <https://github.com/HorizonUnix/PatchSonomaWiFiOnTheFly>
+* <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
+
 ## 应用软件
 
 > 在操作系统内安装
