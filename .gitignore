@@ -1,3 +1,6 @@
 .DS_Store
 src/ProperTree-master
 src/SSDTTime-master
+ws/*
+!ws/Makefile
+!ws/README.md
