@@ -1,12 +1,25 @@
 # 7060mff-opencore
 
 
-## BIOS
-
-**1 - modGRUBShell.efi**
+## `modGRUBShell.efi`
 
 * 修改 `DVMT Pre-Allocated` 为 `64M`: `setup_var 0x8DC 0x2` (显存容量)
 * 禁用 `CFG lock`: `setup_var 0x5BE 0x0`(电源管理相关)
+
+
+## Tools
+
+* <https://github.com/benbaker76/Hackintool>
+* <https://github.com/ic005k/OCAuxiliaryTools>
+* <https://github.com/corpnewt/ProperTree>
+* <https://github.com/corpnewt/GenSMBIOS>
+
+
+## Sonoma
+
+* <https://dortania.github.io/OpenCore-Legacy-Patcher/>
+* <https://github.com/HorizonUnix/PatchSonomaWiFiOnTheFly>
+* <* <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>>
 
 ## [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/)
 
@@ -20,8 +33,8 @@
 * [FEVM FN60G黑苹果兼Sequoia安装教程 | 黑果小兵的部落阁](https://blog.daliansky.net/FEVM-FN60G-Hackintosh-and-Sequoia-Installation-Tutorial.html)
 * [BCM94360CS2 黑苹果 macOS Sonoma Wifi 不能开启修复 - hangox - 博客园](https://www.cnblogs.com/Jabba93/p/18254592/bcm94360cs2-hei-ping-guo-macos-sonoma-wifi-bu-neng)
 * [Disabling SIP](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip)
-* <https://github.com/HorizonUnix/PatchSonomaWiFiOnTheFly>
-* <https://mrasong.com/articles/hackintosh-sonoma-14.4-install-loop/>
+
+
 
 ## 应用软件
 
@@ -30,12 +43,8 @@
 组件|本期|上期|备注
 ---|---|:---:|---
 [`HeliPort.dmg`](https://github.com/OpenIntelWireless/HeliPort/releases/download/v1.4.1/HeliPort.dmg)| `1.4.1` | `1.4.0`| Intel Wifi 联网
-[`Hackintool`](https://github.com/headkaze/Hackintool) | `3.8.3` | -  | 调试工具 |
-[`OCAuxiliaryTools`](https://github.com/ic005k/OCAuxiliaryTools) | - | 编辑工具
 
 ## 硬件
-
-> [OptiPlex 7060](https://www.dell.com/support/home/zh-cn/product-support/product/optiplex-7060-desktop/overview) / [OptiPlex 7060 微型机设置和规格指南](https://dl.dell.com/topicspdf/optiplex-7060-desktop_specifications3_zh-cn.pdf) ([本地版本](./src/optiplex-7060-desktop_specifications3_zh-cn.pdf))
 
 * 芯片组: [Intel® Q370 Chipset](https://ark.intel.com/content/www/cn/zh/ark/products/133282/intel-q370-chipset.html)
 * 处理器: [英特尔® 酷睿™ i5-8600T 处理器](https://ark.intel.com/content/www/cn/zh/ark/products/129938/intel-core-i5-8600t-processor-9m-cache-up-to-3-70-ghz.html)
@@ -53,3 +62,6 @@
 
 * <https://dortania.github.io/OpenCore-Install-Guide/> - `0.9.1`
 * [更新完opencore0.8.8后多了一个EFI怎么删除](https://blog.51cto.com/u_15875231/5988662)
+* [黑果小兵的部落阁](https://blog.daliansky.net/)
+* [主页 - 国光的黑苹果安装教程：手把手教你配置 OpenCore](https://apple.sqlsec.com/)
+* [适用于OptiPlex 7060 Micro的支持 | 概览 | Dell 中国](https://www.dell.com/support/home/zh-cn/product-support/product/optiplex-7060-micro/overview)
