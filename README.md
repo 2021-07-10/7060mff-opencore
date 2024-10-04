@@ -1,5 +1,9 @@
 # 7060mff-opencore
 
+## @TODO
+
+* Sonoma 休眠之后耳机声音不正常
+
 
 ## `modGRUBShell.efi`
 
