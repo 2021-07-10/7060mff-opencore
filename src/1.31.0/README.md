@@ -1,0 +1,1 @@
+MD5 (DSDT.aml) = 0a9ce228c23dfb3c75d1ceb017a280f5
