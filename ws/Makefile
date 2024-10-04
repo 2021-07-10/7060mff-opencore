@@ -1,4 +1,4 @@
-.PHONY: Build Base Firmware Kexts SSDTs Sonoma
+.PHONY: Build Base Firmware Kexts SSDTs Sonoma SonomaClean
 
 Build:
 	mkdir -p ../EFI/BOOT
@@ -56,6 +56,12 @@ Sonoma: AMFIPass-v1.4.1-RELEASE.zip \
 	cp -r IOSkywalkFamily.kext ../EFI/OC/Kexts/
 	cp -r IO80211FamilyLegacy.kext ../EFI/OC/Kexts/
 	cp -r AutoPkgInstaller.kext ../EFI/OC/Kexts/
+
+SonomaClean:
+	rm -rf ../EFI/OC/Kexts/AMFIPass.kext
+	rm -rf ../EFI/OC/Kexts/IOSkywalkFamily.kext
+	rm -rf ../EFI/OC/Kexts/IO80211FamilyLegacy.kext
+	rm -rf ../EFI/OC/Kexts/AutoPkgInstaller.kext
 
 OpenCore-1.0.1-RELEASE.zip:
 	wget https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip
