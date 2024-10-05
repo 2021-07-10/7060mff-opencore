@@ -3,6 +3,7 @@
 ## @TODO
 
 * Sonoma 休眠之后耳机声音不正常
+* 调节声音平衡可以使得声音正常
 
 
 ## `modGRUBShell.efi`
